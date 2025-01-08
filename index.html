@@ -1,4 +1,5 @@
 <html>
+  <script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
 <script>
 createjs.Tween.get(circle, { loop: true })
   .to({ x: 400 }, 1000, createjs.Ease.getPowInOut(4))
@@ -9,8 +10,4 @@ createjs.Tween.get(circle, { loop: true })
 createjs.Ticker.setFPS(60);
 createjs.Ticker.addEventListener("tick", stage);
 </script>
-
-
-<script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
-
 </html>
